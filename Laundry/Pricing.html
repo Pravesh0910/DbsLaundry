@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="footerstyle.css">   
+ <style>
+
+.pricing {
+background-color: #79cbd6;
+width:100%;
+height:100%;
+padding-top:9%;
+margin-top: 20px;
+}
+
+  #priceimg{
+width:14%;
+float:right;
+margin-left:-30%;
+margin-right:22%;
+margin-top: -80px;
+}
+
+ section .content{
+padding-bottom:40%;
+background-color: #fff;
+width:100%;
+height:100%;
+}
+
+    table{
+        border-collapse: collapse;
+        border-spacing: 0;
+        width:45%;
+        border-radius: 10px 10px 0 0;
+        padding-top:10px;
+        background-color: #cce6ff;
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+         padding-bottom:10px;
+         margin-left:-50px;
+    }
+    .row{
+        
+        margin-left: 20px;
+        margin-right: -5px;
+        padding-bottom:0px;
+
+    }
+  
+    .row::after{
+        content: "";
+        clear:both;
+        display: table;
+    }
+    .row thead tr{
+        background-color: grey;
+        color: #fff;
+    
+    }
+    .row th,
+    .row td{
+        text-align: left;
+        padding: 10px;
+        width:50%;
+ }
+ .row tbody tr{
+    border-bottom: 1px solid #ddd;
+ }
+ .row tbody tr:nth-child(even){
+    background-color:gray;
+ }
+ .row tbody tr.active-row {
+    color: white;
+ }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+text-decoration: none;
+}
+
+.selector{
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+select{
+    width: 500px;
+    height: 37px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+<nav class="navbar fixed-top navbar-expand-lg bg-light fs-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="DB's Laundry Home Logo 1-01.png" alt="Bootstrap" width="150" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Pricing.html">Pricing</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="locateus.html">Locate Us</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="gallery1.html">Gallery</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Drop down section-->
+<section class="pricing">
+<div class="container-fluid">
+
+<img src="price.webp" id="priceimg">
+       <h1>&nbsp;&nbsp;&nbsp;&nbsp;Pricing</h1>
+            _____________________________________________________<br>
+
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Get clothes as good as new
+                at unbelievable prices</p>
+
+
+<div class="selector">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Select area to check prices</p>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<select>
+
+<option value="">Select your location</option>
+<option value=""><a href="" target="blank">Agartala</option></a>
+<option value="">Ahmedabad</option>
+<option value="">Ajmer</option>
+<option value="">Alibag</option>
+<option value="">Almora</option>
+<option value="">Amritsar</option>
+<option value="">Assam</option>
+<option value="">Aurangabad</option>
+<option value="">Banda</option>
+<option value="">Bangalore</option>
+<option value="">Barabanki</option>
+<option value="">Bareilly</option>
+<option value="">Basti</option>
+<option value="">Belagavi</option>
+<option value="">Bettiah</option>
+<option value="">Bhagalpur</option>
+<option value="">Bhabaneswar</option>
+<option value="">Bhopal</option>
+<option value="">Bongaigaon</option>
+<option value="">Chandigarh</option>
+<option value="">Chennai</option>
+<option value="">Chumukeidma</option>
+<option value="">Darbhanga</option>
+<option value="">Deoria</option>
+<option value="">dera Bassi</option>
+<option value="">Dhanbed</option>
+<option value="">Dibrugarh</option>
+<option value="">Dimapur</option>
+<option value="">East Delhi</option>
+<option value="">Etawah</option>
+<option value="">East Delhi</option>
+<option value="">South Delhi</option>
+<option value="">North Delhi</option>
+<option value="">West Delhi</option>
+<option value="">Dehradun</option>
+<option value="">faridabad</option>
+<option value="">Faizabad</option>
+<option value="">Gaya</option>
+<option value="">godavarikhani</option>
+<option value="">Goa</option>
+<option value="">Gonda</option>
+<option value="">Gorakhpur</option>
+<option value="">Gurgaon DLF zone</option>
+<option value="">Gurgaon Sector 83/Manesar</option>
+
+
+</select>
+</div>
+ </div>
+ </section> 
+
+<!--table section-->
+
+<section class="content">
+    <h2 class="text-center pt-2"> DRY CLEAN PRICE LIST </h2>
+    <hr class="contenthr bg-danger bg-opacity-0.8  w-25 mx-auto pb-2">
+    <div class="parent ">
+    <table class="row border rounded">
+    
+        <thead>
+            <tr>
+                <th>Men's Wear</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>shirt/tshirt</td>
+            <td>60/60</td>
+            <td>48/48</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>Trouser/Jeans</td>
+            <td>70/70</td>
+            <td>56/56</td>
+            </tr>
+        
+            <tr>
+            <td>Coat</td>
+            <td>270</td>
+            <td>216</td>
+            </tr>
+      
+        <tr class="active-row">
+            <td>suit 2 Pcs</td>
+            <td>340</td>
+            <td>272</td>
+    </tr>
+        
+            <tr>
+            <td>suit 3 Pcs</td>
+            <td>440</td>
+            <td>352</td>
+            </tr>
+        <tr class="active-row">
+            <td>Jacket</td>
+            <td>215+</td>
+            <td>172+</td>
+        </tr>
+        </tbody>
+    </table>
+
+    
+        <table class="row">
+        <thead>
+            <tr>
+                <th>Women's Wear</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>kurta</td>
+            <td>70</td>
+            <td>56</td>
+        </tr>
+        <tr class="active-row">
+            <td>salwar</td>
+            <td>60</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>saree</td>
+            <td>165+</td>
+            <td>132+</td>
+        </tr>
+        <tr class="active-row">
+            <td>Dress</td>
+            <td>215+</td>
+            <td>132+</td>
+        </tr>
+        <tr>
+            <td>Lehenga</td>
+            <td>320+</td>
+            <td>256+</td>
+        </tr>
+        <tr class="active-row">
+            <td>Shawl</td>
+            <td>165+</td>
+            <td>132+</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="parent mt-4">
+
+<table class="row">
+    
+        <thead>
+            <tr>
+                <th>Household</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>S Blanket S/D</td>
+            <td>320/385</td>
+            <td>256/308</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>D Blanket S/D</td>
+            <td>485/535</td>
+            <td>388/428</td>
+            </tr>
+        
+            <tr>
+            <td>Bedsheet S/D</td>
+            <td>110/135</td>
+            <td>256/388</td>
+            </tr>
+      
+        <tr class="active-row">
+            <td>Quilt S/D</td>
+            <td>320/485</td>
+            <td>256/388</td>
+    </tr>
+        
+            <tr>
+            <td>Carpet</td>
+            <td>35/Sq Ft</td>
+            <td>28/Sq Ft</td>
+            </tr>
+        <tr class="active-row">
+            <td>Curtain</td>
+            <td>110+/Panel</td>
+            <td>88+/Panel</td>
+        </tr>
+        </tbody>
+    </table>
+
+<table class="row">
+    
+        <thead>
+            <tr>
+                <th>Shoes</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Sports</td>
+            <td>330</td>
+            <td>264</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>Canvas</td>
+            <td>330</td>
+            <td>264</td>
+            </tr>
+        
+            <tr>
+            <td>Leather</td>
+            <td>640</td>
+            <td>512</td>
+            </tr>
+      
+        <tr class="active-row">
+            <td>Suede leather</td>
+            <td>630</td>
+            <td>504</td>
+    </tr>
+        
+            <tr>
+            <td>Boots</td>
+            <td>850+</td>
+            <td>680+</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</section>
+
+<section id="sectionlaundry">
+<div class="bg-secondary bg-opacity-25">
+<h2 class="text-center pt-2"> DRY CLEAN PRICE LIST </h2>
+    <hr class="contenthr bg-danger bg-opacity-0.8  w-25 mx-auto pb-2">
+
+<div class="parent ">
+    <table class="row border rounded">
+    
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Wash & Steam</td>
+            <td>110/Kg</td>
+            <td>85/Kg</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>Wash & Fold</td>
+            <td>80/Kg</td>
+            <td>80/Kg</td>
+            </tr>
+        
+            <tr>
+            <td>Premium Laundry</td>
+            <td>175/Kg</td>
+            <td>175/Kg</td>
+            </tr>
+      
+        <tr class="active-row">
+            <td>Woolen Laundry</td>
+            <td>185/Kg</td>
+            <td>185/Kg</td>
+    </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</section>
+
+<section id="sectionsteam">
+<div class="">
+<h2 class="text-center pt-2"> DRY CLEAN PRICE LIST </h2>
+    <hr class="contenthr bg-danger bg-opacity-0.8  w-25 mx-auto pb-2">
+
+<div class="parent m-1">
+    <table class="row border rounded">
+    
+        <thead>
+            <tr>
+                <th>Men's Wear</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>shirt/tshirt</td>
+            <td>20/20</td>
+            <td>16/16</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>Trouser/Jeans</td>
+            <td>30/30</td>
+            <td>24/24</td>
+            </tr>
+        
+            <tr>
+            <td>Coat</td>
+            <td>110</td>
+            <td>88</td>
+            </tr>
+      
+        <tr class="active-row">
+            <td>suit 2 Pcs</td>
+            <td>140</td>
+            <td>122</td>
+    </tr>
+        
+            <tr>
+            <td>suit 3 Pcs</td>
+            <td>180</td>
+            <td>144</td>
+            </tr>
+        <tr class="active-row">
+            <td>Jacket</td>
+            <td>90+</td>
+            <td>72+</td>
+        </tr>
+        </tbody>
+    </table>
+
+    
+        <table class="row">
+        <thead>
+            <tr>
+                <th>Women's Wear</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>kurta</td>
+            <td>30+</td>
+            <td>24+</td>
+        </tr>
+        <tr class="active-row">
+            <td>salwar</td>
+            <td>20+</td>
+            <td>16+</td>
+        </tr>
+        <tr>
+            <td>saree</td>
+            <td>70+</td>
+            <td>56+</td>
+        </tr>
+        <tr class="active-row">
+            <td>Dress</td>
+            <td>90+</td>
+            <td>72+</td>
+        </tr>
+        <tr>
+            <td>Lehenga</td>
+            <td>130+</td>
+            <td>104+</td>
+        </tr>
+        <tr class="active-row">
+            <td>Shawl</td>
+            <td>70+</td>
+            <td>56+</td>
+        </tr>
+        </tbody>
+    </table>
+
+<table class="row">
+    
+        <thead>
+            <tr>
+                <th>Household</th>
+                <th>Reg price</th>
+                <th>Offer Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Bedsheet S/D</td>
+            <td>40/50</td>
+            <td>32/40</td>
+            </tr>
+      
+            <tr class="active-row">
+            <td>Curtain</td>
+            <td>30+/Panel</td>
+            <td>24+/Panel</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</section>
+
+
+<section id="sectionoffer">
+
+<div class="bg-info bg-opacity-25">
+
+<h2 class="text-center pt-3 pb-3"> <strong> Super Savings </strong> with our <strong> Super Offers </strong> </h2>
+
+<h2 class="text-center pb-2"> <u> Inaugural Offer </u> </h2>
+
+<div class="container d-flex justify-content-between">
+
+<div>
+<p class="fs-3" > <strong> 20% OFF on Dry </p> <p class="text-center fs-3"> Clean </p> </strong> 
+<p> 20% Discount on 1st Dry Clean </p> <p class="text-center"> Order </p>
+</div>
+
+<div>
+<p class=" fs-3"> <strong> 25% OFF on </p> <p class="ms-4 fs-3"> Laundry </p> </strong>
+<p> Upto 25% off on 1st Laundry </p> <p class="text-center"> Order </p>
+</div>
+
+<div>
+<p class=" fs-3"> <strong> 20% OFF on Shoe </p> <p class="text-center fs-3"> Cleaning </p> </strong>
+<p> 20% Discount on 1st Shoe </p> <p class="text-center pb-5"> Cleaning Order </p>
+</div>
+
+</div>
+
+<h2 class="text-center pb-1"> <u> <strong> Super Saver Package </u> </strong> </h2>
+
+<h3 class="text-center text-success"> Recharge with INR 2000 or more and enjoy super savings of </h3>
+<h3 class="text-center text-success pb-5"> up to 25% </h3> 
+
+<div class="container d-flex justify-content-between">
+
+<div>
+<p class="fs-3" > <strong> Wash & Steam Iron </p> </strong> 
+<p class="text-center"> <strong> <s class="bg-danger"> 110/kg </s> 85/Kg </p> </strong>
+</div>
+
+<div>
+<p class=" fs-3"> <strong> Wash & Fold <s class="bg-danger"> 80/Kg </s> 60/Kg </strong> </p>
+</div>
+
+<div class="pb-3">
+<p class=" fs-3 pb-5"> <strong> Dry Cleaning <span class="text-danger pb-5"> Flat 15% Off </span> </strong> </p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<div class="container mt-3 mb-4">
+    <p>
+        <strong>
+            T&C
+        </strong>
+    </p>
+    <ol>
+        <li>
+            All prices are inclusive of taxes.
+        </li>
+        <li>Minimum order value of ₹350 for free pickup and delivery.
+
+        </li>
+        <li>
+            Actual dry cleaning prices may vary depending on the actual garment(depending on fabric, texture, embellishments, level of embroidery or similar work, etc..)
+        </li>
+    </ol>
+</div>
+
+<!-- Footer -->
+<!-- partial:index.partial.html -->
+<footer class="footer-section ">
+    <div class="container bg-opacity-25 " style="color: black; font-weight: 500;">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+
+<lord-icon
+src="https://cdn.lordicon.com/elzslyvl.json"
+trigger="hover"
+style="width:50px;height:50px">
+</lord-icon>
+                        <div class="cta-text">
+                            <h4 style="color: black;">  Find us</h4>
+                            <span>Shop no.06,Midtown  avenue  CHS. Ltd, Godrej hill, khadakpada ,kalyan west-421301.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+<lord-icon class="bg-info bg-opacity-25"
+src="https://cdn.lordicon.com/zpxybbhl.json"
+trigger="hover"
+colors="primary:#121331,secondary:#08a88a"
+style="width:50px;height:50px">
+</lord-icon>
+                        <div class="cta-text">
+                            <h4 style="color: black;">Call us</h4>
+                            <span>+91 84509 44465</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+<lord-icon class="bg-info bg-opacity-25"
+src="https://cdn.lordicon.com/diihvcfp.json"
+trigger="hover"
+style="width:50px;height:50px">
+</lord-icon>
+                        <div class="cta-text">
+                            <h4 style="color: black;">Mail us</h4>
+                            <span>contact@dbslaundry.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="DB's Laundry Home Logo 1-01.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text mt-5">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                            elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+<div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3 style="color: black;">Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="service.html">services</a></li>
+                            <li><a href="Aboutus.html">About us</a></li>
+                          <!--  <li><a href="gallery1.html">Gallery</a></li> -->
+                            <li><a href="Pricing.html">Pricing</a></li>
+                            <li><a href="locateus.html">Locate Us</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="Contactus.html">Contact us</a></li>
+                            <li><a href="faqpagefinal.html">FAQ's</a></li>
+                            <li><a href="terms.html">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3 style="color: black;">Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+<div class="footer-social-icon p-2">
+                            <span style="color: black;">Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- partial -->
+</body>
+</html>
